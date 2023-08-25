@@ -1,1 +1,23 @@
 npm run dev
+
+
+
+
+--------------------------------------------------Git
+//First time commit
+git config --global user.email "thanawat.sukwibul@gmail.com"
+git config --global user.name "BEST-Thanawat"
+git init
+dotnet new gitignore
+git add .
+git commit -m "End of section 8"
+
+then go to create new repo at githup.com (https://github.com/new)
+git branch -M main
+git remote add origin https://github.com/BEST-Thanawat/Carsties-Web-App.git
+git push -u origin main
+
+//Second time+ 
+git add .
+git commit -m "End of section 5"
+git push -u origin main
