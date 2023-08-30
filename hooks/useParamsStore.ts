@@ -27,7 +27,7 @@ const initialState: State = {
   orderBy: "make",
   filterBy: "live",
   seller: undefined,
-  winner: undefined
+  winner: undefined,
 };
 
 export const useParamsStore = create<State & Actions>()((set) => ({
